@@ -6,7 +6,7 @@ from app.controller.errors.http_error import http_error_handler
 from app.controller.router import router as api_router
 
 def get_application() -> FastAPI:
-    application = FastAPI(title="TABLE PARSING", debug=True, version="0.1")
+    application = FastAPI(title="TABLE PARSING", debug=True, version="1.0")
 
     application.add_middleware(
         CORSMiddleware, allow_origins=["*"], allow_credentials=True, allow_methods=["*"], allow_headers=["*"],

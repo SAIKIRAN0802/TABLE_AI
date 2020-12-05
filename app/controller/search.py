@@ -17,7 +17,7 @@ def UPLOAD_FILE(
     file: UploadFile = File(...)
 ):
     pass
-
+@router.post("/ask-question")
 def ASK_QUESTION(
     file: UploadFile = File(...)
 ):
