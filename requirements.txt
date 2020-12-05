@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pandas
+python-multipart
+python-docx
+sqlalchemy_utils
+
+tika
+uvloop; sys_platform != 'win32' and sys_platform != 'cygwin'
+httptools
+nltk
+more_itertools
+networkx
